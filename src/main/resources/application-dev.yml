@@ -1,0 +1,18 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /info
+
+
+
+
+hive:
+  jdbc:
+    url: jdbc
+  username: cbw
+  password: 123
+
+content: "${hive.password}"
+
+
+
